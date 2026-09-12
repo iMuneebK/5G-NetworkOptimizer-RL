@@ -1,0 +1,4 @@
+# Network Configuration
+TOTAL_BANDWIDTH = 100 # MHz
+NUM_SLICES = 3
+MAX_USERS_PER_SLICE = 1000\n
