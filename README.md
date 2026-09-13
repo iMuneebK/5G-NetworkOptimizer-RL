@@ -1,24 +1,39 @@
-# 📡 AI-Powered 5G Network Optimizer
+# 5G-NetworkOptimizer-RL
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-RL-red.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-An intelligent system for dynamically optimizing 5G network resource allocation using Deep Reinforcement Learning (DQN) and time-series forecasting (LSTM).
+## Description
+This project focuses on 5g optimization. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
-## 🌟 Features
-- **Reinforcement Learning (DQN)**: Optimizes 5G network resource allocation and dynamic spectrum management.
-- **Traffic Forecasting**: Predicts network congestion using LSTM time-series forecasting.
-- **Network Slicing**: Demonstrates intelligent slicing for eMBB, URLLC, and mMTC.
-- **Real-Time Dashboard**: Streamlit interface showing network KPIs (throughput, latency, packet loss).
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
 
-## 🏗️ Architecture
-- **5G NR Environment Simulator**: Mocks realistic network behavior, massive MIMO, and beamforming effects.
-- **DQN Agent**: Learns optimal bandwidth allocation policies.
-- **LSTM Predictor**: Forecasts upcoming traffic surges.
+## Tech Stack
+- Deep Q-Learning\n- LSTM\n- Network Slicing\n- Streamlit
 
-## 🚀 Usage
+## Quick Start
 ```bash
+git clone https://github.com/iMuneebK/5G-NetworkOptimizer-RL.git
+cd 5G-NetworkOptimizer-RL
 pip install -r requirements.txt
-streamlit run app.py
-```\n
+python main.py
+```
+
+## Project Structure
+```
+5G-NetworkOptimizer-RL/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
